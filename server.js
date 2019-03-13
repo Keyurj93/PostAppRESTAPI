@@ -45,7 +45,7 @@ const onListening = () => {
 };
 
 const port = normalizePort(process.env.PORT || "3000");
-console.log("Port ",port);
+console.log("Port by heroku",port);
 app.set("port", port);
 
 const server = http.createServer(app);
